@@ -15,22 +15,22 @@ header {
     padding: 0.5% 1% 0.5% 1%;
     background-color: #F4F4F4;
     align-items: center;
-    height: 6vh;
+    height: 9vh;
 }
 
 #plus {
-    width: 35px;
-    margin-right: 25px;
+    height: 4vh;
+    margin-right: 1vw;
 }
 
 #logo {
 
     margin-top: 0.7vh;
-    height: 50px;
+    height: 5vh;
 }
 
 #profile-pic {
-    height: 40px;
+    height: 4.5vh;
 }
 
 .nav-link {
