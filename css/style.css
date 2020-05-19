@@ -7,6 +7,7 @@
     font-family: "sans-serif";
 }
 
+/* header */
 header {
     display: flex;
     flex-direction: row;
@@ -14,10 +15,7 @@ header {
     padding: 0.5% 1% 0.5% 1%;
     background-color: #F4F4F4;
     align-items: center;
-
 }
-
-#plusprofile {}
 
 #plus {
     width: 50px;
@@ -45,3 +43,29 @@ nav {
     text-align: center;
 }
 
+/* footer */
+footer {
+    background-color: #353535;
+    width: 100vw;
+    height: 32vh;
+    clip-path: polygon(50% 25%, 100% 0, 100% 100%, 0% 100%, 0 50%, 0% 0%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer-content {
+    margin-top: 12vh;
+    color: #F4F4F4;
+}
+
+.footer-title {
+    font-family: "Amatic SC", "sans-serif";
+    font-size: 32pt;
+    margin-bottom: 2vh;
+}
+
+footer p {
+    margin-top: 1vh;
+    font-family: "Roboto";
+}
