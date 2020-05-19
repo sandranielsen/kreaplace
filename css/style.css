@@ -35,7 +35,7 @@ header {
 
 .nav-link {
     text-decoration: none;
-    margin: 2%;
+    margin: 2% 5%;
     font-family: "Amatic SC";
     font-size: 2em;
     color: #353535;
@@ -60,6 +60,7 @@ footer {
 .footer-content {
     margin-top: 12vh;
     color: #F4F4F4;
+    text-align: center;
 }
 
 .footer-title {
@@ -72,4 +73,16 @@ footer p {
     margin-top: 1vh;
     font-family: "Roboto", "sans-serif";
     font-weight: 100;
+}
+
+.some-icon {
+    fill: #F4F4F4;
+    height: 2vh;
+    margin-right: 0.5vw;
+    margin-top: 1vh;
+}
+
+.some-element {
+    display: flex;
+    flex-direction: row;
 }
