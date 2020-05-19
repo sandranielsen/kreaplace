@@ -1,0 +1,130 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "sans-serif";
+}
+
+/*MARKETPLACE*/
+/*title and description*/
+.mp-main {
+    display: flex;
+    flex-direction: column;
+}
+
+.mp-header {
+    font-family: 'Amatic SC', cursive;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    margin: 40px auto;
+    font-size: 4em;
+    color: #353535;
+}
+
+.mp-intro {
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    margin: 40px auto 100px;
+    font-weight: 100;
+    width: 30%;
+    text-align: center;
+    line-height: 30px;
+    color: #353535;
+    font-size: 1em;
+}
+
+.mp-middlepart {
+    height: auto;
+}
+
+/*side navigation*/
+.mp-navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 100vh;
+    position: sticky;
+    float: left;
+    top: 10px;
+
+
+}
+
+.mp-nav-el {
+    font-family: 'Amatic SC', cursive;
+    color: #353535;
+    text-decoration: none;
+    font-size: 2.5em;
+    margin: 10px auto;
+
+
+}
+
+/*searchbar*/
+.mp-searchbar {
+    width: 180px;
+    margin: 0 auto 10px auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.mp-search-type {
+    width: 180px;
+    height: 50px;
+    margin: 0;
+    background-color: #f4f4f4;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Amatic SC', cursive;
+    color: #353535;
+    font-size: 2em;
+    padding: 10px;
+}
+
+.mp-search-btn {
+    width: 80px;
+    height: 50px;
+    margin: 0;
+    border: none;
+    background: #228E8E;
+    border-radius: 10px;
+    font-family: 'Amatic SC', cursive;
+    color: #f4f4f4;
+    font-size: 2em;
+    padding: 5px;
+}
+
+/*gallery*/
+.mp-gallery {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    object-fit: contain;
+    grid-gap: 50px;
+    width: 1000px;
+    margin: auto auto auto 400px;
+    height: auto;
+}
+
+.mp-img {
+    width: 100%;
+
+}
+
+.mp-pages {
+    font-family: 'Amatic SC', cursive;
+    color: #353535;
+    font-size: 2em;
+    justify-content: flex-end;
+    align-content: flex-end;
+    display: flex;
+    margin: 30px 100px;
+
+
+
+}
