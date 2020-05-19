@@ -4,29 +4,44 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "sans-serif";
 }
 
 header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 1%;
+    padding: 0.5% 1% 0.5% 1%;
     background-color: #F4F4F4;
     align-items: center;
+
 }
+
+#plusprofile {}
 
 #plus {
     width: 50px;
+    margin-right: 25px;
+}
+
+#logo {
+    height: 60px;
+}
+
+#profile-pic {
+    height: 55px;
 }
 
 .nav-link {
     text-decoration: none;
     margin: 2%;
+    font-family: "Amatic SC";
+    font-size: 32pt;
+    color: #353535;
 }
 
 nav {
-    width: 20vw;
-    background-color: aqua;
+    width: 50vw;
     text-align: center;
 }
 
