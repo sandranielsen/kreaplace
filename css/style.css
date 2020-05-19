@@ -5,3 +5,27 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1%;
+    background-color: #F4F4F4;
+    align-items: center;
+}
+
+#plus {
+    width: 50px;
+}
+
+.nav-link {
+    text-decoration: none;
+    margin: 2%;
+}
+
+nav {
+    width: 20vw;
+    background-color: aqua;
+    text-align: center;
+}
