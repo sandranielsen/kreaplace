@@ -94,8 +94,9 @@
     font-family: 'Amatic SC', cursive;
     display: flex;
     font-size: 1.5em;
-    margin: 20px auto;
-    width: 300px;
+    margin: 20px 30px;
+    position: relative;
+    width: auto;
     height: 50px;
     padding-left: 10px;
     background: #F4F4F4;
