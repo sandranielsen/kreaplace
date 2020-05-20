@@ -29,6 +29,15 @@
     color: #353535
 }
 
+.profile_headline {
+    font-family: 'Amatic Sc';
+}
+
+.profile_text {
+    font-family: 'Roboto';
+    font-weight: 100;
+}
+
 .profile_settings {
     display: flex;
     flex-direction: column;
