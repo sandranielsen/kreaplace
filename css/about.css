@@ -22,7 +22,7 @@
 .banner_headline {
     font-family: "Amatic SC";
     font-size: 4vw;
-    color: #fff;
+    color: #F4F4F4;
     position: relative;
 }
 
@@ -30,7 +30,7 @@
     font-family: "Roboto";
     font-weight: normal;
     font-size: 1.5vw;
-    color: #fff;
+    color: #F4F4F4;
     position: relative;
 }
 
@@ -43,6 +43,7 @@
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
     font-size: 1.5vw;
+    color: #353535;
 }
 
 .about_image {
