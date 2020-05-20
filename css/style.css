@@ -55,6 +55,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    max-width: 100%;
 }
 
 .footer-content {
@@ -93,7 +94,6 @@ footer p {
     border: none;
     cursor: pointer;
 }
-
 
 .dropdown {
     position: relative;
