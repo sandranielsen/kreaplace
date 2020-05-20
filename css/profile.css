@@ -1,0 +1,86 @@
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "sans-serif";
+}
+
+.profile_header {
+    height: 10vw;
+    display: flex;
+    margin: 5vw 15vw;
+}
+
+.profile_image {
+    width: 15vw;
+    height: 15vw;
+}
+
+.profile_bio {
+    width: 100%;
+    height: 15vw;
+    margin: 0 0 0 5vw;
+    border: solid lightgray;
+    border-radius: 1vw;
+    padding: 1vw 2vw;
+    background-color: #f4f4f4;
+    color: #353535
+}
+
+.profile_settings {
+    display: flex;
+    flex-direction: column;
+}
+
+.button {
+    width: 15vw;
+    margin: 2vw 0 0 15vw;
+    background-color: #228E8E;
+    color: #f4f4f4;
+    height: 3vw;
+    border: none;
+    border-radius: 1vw;
+    font-family: "Amatic SC";
+    font-size: 2vw;
+}
+
+.selected_button {
+    width: 15vw;
+    margin: 4vw 0 0 15vw;
+    background-color: #353535;
+    color: #f4f4f4;
+    height: 3vw;
+    border: none;
+    border-radius: 1vw;
+    font-family: "Amatic SC";
+    font-size: 2vw;
+}
+
+.profile_gallery {
+    display: grid;
+    grid-template-columns: 22% 22% 22%;
+    grid-gap: 3vw;
+    margin: -18vw auto 5vw 35vw;
+    height: auto;
+}
+
+.profile_button {
+    width: 10vw;
+    margin: 0 0 2vw 15vw;
+    background-color: #228E8E;
+    color: #f4f4f4;
+    height: 3vw;
+    border: none;
+    border-radius: 1vw;
+    font-family: "Amatic SC";
+    font-size: 2vw;
+}
+
+.button_container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0 15vw 2vw 35vw;
+}
+
