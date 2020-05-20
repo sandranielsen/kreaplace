@@ -25,7 +25,15 @@
         </nav>
         <div id="plusprofile">
             <a href="newpost.html"><img src="../media/plus_small.png" alt="plus" id="plus"></a>
-            <img src="../media/profile.png" alt="profile picture" id="profile-pic">
+            <!-- dropdown menu - source: https://www.w3schools.com/howto/howto_js_dropdown.asp -->
+            <div class="dropdown">
+                <img src="../media/profile.png" onclick="myFunction()" alt="profile picture" id="profile-pic"
+                    class="dropbtn">
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="profile.html">Profile</a>
+                    <a href="frontpage.html">Log Out</a>
+                </div>
+            </div>
         </div>
     </header>
     <main class="mp-sp-main">
@@ -78,7 +86,7 @@
             </div>
         </div>
     </footer>
-    <script type="text/javascript" src="script.js"></script>
+    <script type="text/javascript" src="../js/js.js"></script>
 </body>
 
 </html>
