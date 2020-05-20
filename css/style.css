@@ -1,4 +1,4 @@
-*,
+    *,
 *:after,
 *:before {
     margin: 0;
@@ -7,6 +7,7 @@
     font-family: "sans-serif";
 }
 
+/* header */
 header {
     display: flex;
     flex-direction: row;
@@ -14,29 +15,29 @@ header {
     padding: 0.5% 1% 0.5% 1%;
     background-color: #F4F4F4;
     align-items: center;
-
+    height: 9vh;
 }
 
-#plusprofile {}
-
 #plus {
-    width: 50px;
-    margin-right: 25px;
+    height: 4vh;
+    margin-right: 1vw;
 }
 
 #logo {
-    height: 60px;
+
+    margin-top: 0.7vh;
+    height: 5vh;
 }
 
 #profile-pic {
-    height: 55px;
+    height: 4.5vh;
 }
 
 .nav-link {
     text-decoration: none;
-    margin: 2%;
+    margin: 2% 5%;
     font-family: "Amatic SC";
-    font-size: 32pt;
+    font-size: 2em;
     color: #353535;
 }
 
@@ -45,119 +46,43 @@ nav {
     text-align: center;
 }
 
-
-/*frontpage (sign in/ log in)*/
-.front-page {
+/* footer */
+footer {
+    background-color: #353535;
     width: 100vw;
-    height: 100vh;
-
+    height: 35vh;
+    clip-path: polygon(50% 25%, 100% 0, 100% 100%, 0% 100%, 0 50%, 0% 0%);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 
-.frontpage-wrapper {
-    display: flex;
-    position: absolute;
-    align-content: center;
-    justify-content: center;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    width: 100vw;
-    height: 100vh;
-
-}
-
-/*left part*/
-.frontpage-welcome {
-    display: flex;
-    align-content: center;
-    margin: auto;
-    justify-content: center;
-    font-size: 100px;
+.footer-content {
+    margin-top: 12vh;
+    color: #F4F4F4;
     text-align: center;
-    font-family: 'Amatic SC', cursive;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    color: #353535;
-    padding-bottom: 200px;
 }
 
-/*right part*/
-.frontpage-forms {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    margin: auto;
-
-}
-
-.fp-login,
-.fp-signin {
-    height: 500px;
-    width: 360px;
-    justify-content: space-between;
-    display: flex;
-    flex-direction: column;
-    position: absolute;
-    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-
-.fp-login {
-    background-color: #DBEDEE;
-    top: 20%;
-    left: 55%;
-    z-index: 20;
-
-}
-
-.fp-signin {
-    background: #228E8E;
-    position: absolute;
-    top: 10%;
-    left: 60%;
-    z-index: 19;
-
-}
-
-/*inside forms*/
-.forms-title {
-    font-family: 'Amatic SC', cursive;
+.footer-title {
+    font-family: "Amatic SC", "sans-serif";
     font-size: 2.5em;
-    margin: 15px 30px;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    color: #353535;
+    margin-bottom: 2vh;
 }
 
+footer p {
+    margin-top: 1vh;
+    font-family: "Roboto", "sans-serif";
+    font-weight: 100;
+}
 
+.some-icon {
+    fill: #F4F4F4;
+    height: 2vh;
+    margin-right: 0.5vw;
+    margin-top: 1vh;
+}
 
-.forms-inputs {
-    font-family: 'Amatic SC', cursive;
+.some-element {
     display: flex;
-    font-size: 1.5em;
-    margin: 20px auto;
-    width: 300px;
-    height: 50px;
-    padding-left: 10px;
-    background: #F4F4F4;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-    font-weight: bold;
-    border: none;
-
-
-}
-
-input::placeholder {
-    color: rgba(53, 53, 53, 0.3);
-
-}
-
-.forms-btn {
-    font-family: 'Amatic SC', cursive;
-    font-size: 2em;
-    margin: 30px auto 80px;
-    width: 100px;
-    height: 50px;
-    box-shadow: 10px 10px 0px 0px #353535;
-    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    color: #353535;
-    border: none;
+    flex-direction: row;
 }
