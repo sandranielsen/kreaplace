@@ -35,6 +35,7 @@
 
 .about_container {
     margin: 5vw 15vw;
+    text-align: justify;
 }
 
 .about_text {
