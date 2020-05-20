@@ -1,88 +1,130 @@
     *,
-*:after,
-*:before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: "sans-serif";
-}
+    *:after,
+    *:before {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: "sans-serif";
+    }
 
-/* header */
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding: 0.5% 1% 0.5% 1%;
-    background-color: #F4F4F4;
-    align-items: center;
-    height: 9vh;
-}
+    /* header */
+    header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0.5% 1% 0.5% 1%;
+        background-color: #F4F4F4;
+        align-items: center;
+        height: 9vh;
+    }
 
-#plus {
-    height: 4vh;
-    margin-right: 1vw;
-}
+    #plus {
+        height: 4vh;
+        margin-right: 1vw;
+    }
 
-#logo {
+    #logo {
 
-    margin-top: 0.7vh;
-    height: 5vh;
-}
+        margin-top: 0.7vh;
+        height: 5vh;
+    }
 
-#profile-pic {
-    height: 4.5vh;
-}
+    #profile-pic {
+        height: 4.5vh;
+    }
 
-.nav-link {
-    text-decoration: none;
-    margin: 2% 5%;
-    font-family: "Amatic SC";
-    font-size: 2em;
-    color: #353535;
-}
+    .nav-link {
+        text-decoration: none;
+        margin: 2% 5%;
+        font-family: "Amatic SC";
+        font-size: 2em;
+        color: #353535;
+    }
 
-nav {
-    width: 50vw;
-    text-align: center;
-}
+    nav {
+        width: 50vw;
+        text-align: center;
+    }
 
-/* footer */
-footer {
-    background-color: #353535;
-    width: 100vw;
-    height: 35vh;
-    clip-path: polygon(50% 25%, 100% 0, 100% 100%, 0% 100%, 0 50%, 0% 0%);
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
+    /* footer */
+    footer {
+        background-color: #353535;
+        width: 100vw;
+        height: 35vh;
+        clip-path: polygon(50% 25%, 100% 0, 100% 100%, 0% 100%, 0 50%, 0% 0%);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
 
-.footer-content {
-    margin-top: 12vh;
-    color: #F4F4F4;
-    text-align: center;
-}
+    .footer-content {
+        margin-top: 12vh;
+        color: #F4F4F4;
+        text-align: center;
+    }
 
-.footer-title {
-    font-family: "Amatic SC", "sans-serif";
-    font-size: 2.5em;
-    margin-bottom: 2vh;
-}
+    .footer-title {
+        font-family: "Amatic SC", "sans-serif";
+        font-size: 2.5em;
+        margin-bottom: 2vh;
+    }
 
-footer p {
-    margin-top: 1vh;
-    font-family: "Roboto", "sans-serif";
-    font-weight: 100;
-}
+    footer p {
+        margin-top: 1vh;
+        font-family: "Roboto", "sans-serif";
+        font-weight: 100;
+    }
 
-.some-icon {
-    fill: #F4F4F4;
-    height: 2vh;
-    margin-right: 0.5vw;
-    margin-top: 1vh;
-}
+    .some-icon {
+        fill: #F4F4F4;
+        height: 2vh;
+        margin-right: 0.5vw;
+        margin-top: 1vh;
+    }
 
-.some-element {
-    display: flex;
-    flex-direction: row;
-}
+    .some-element {
+        display: flex;
+        flex-direction: row;
+    }
+
+    /* dropdown menu - source: https://www.w3schools.com/howto/howto_js_dropdown.asp */
+
+    .dropbtn {
+        border: none;
+        cursor: pointer;
+    }
+
+
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #F4F4F4;
+        min-width: 5vw;
+        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+        z-index: 1;
+        right: 0;
+
+    }
+
+    .dropdown-content a {
+        color: #353535;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+        font-family: "Amatic SC", "sans-serif";
+        font-size: 1.5em;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #353535;
+        color: #F4F4F4;
+    }
+
+    .show {
+        display: block;
+    }
