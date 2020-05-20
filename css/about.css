@@ -27,7 +27,8 @@
 }
 
 .banner_text {
-    font-family: 'Roboto', sans-serif;
+    font-family: "Roboto";
+    font-weight: normal;
     font-size: 1.5vw;
     color: #fff;
     position: relative;
@@ -39,7 +40,8 @@
 }
 
 .about_text {
-    font-family: 'Roboto thin', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
     font-size: 1.5vw;
 }
 
