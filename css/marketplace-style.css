@@ -47,10 +47,10 @@
     flex-direction: column;
     justify-content: center;
     width: 300px;
-    height: 100vh;
+    height: auto;
     position: sticky;
     float: left;
-    top: 10px;
+    top: 30px;
 
 
 }
