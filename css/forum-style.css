@@ -1,0 +1,138 @@
+.mp-middlepart {
+    height: auto;
+}
+
+/*side navigation*/
+.mp-navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: 100vh;
+    position: sticky;
+    float: left;
+    top: 10px;
+
+
+}
+
+*,
+*:after,
+*:before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "sans-serif";
+}
+
+
+/*forum*/
+.forum-middlepart {
+    height: auto;
+}
+
+/*side navigation*/
+.forum-navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 300px;
+    height: auto;
+    position: sticky;
+    float: left;
+    top: 30px;
+    margin-top: 30px;
+
+}
+
+.forum-nav-el {
+    font-family: 'Amatic SC', cursive;
+    color: #353535;
+    text-decoration: none;
+    font-size: 2em;
+    margin: 10px auto;
+
+
+}
+
+/*searchbar*/
+.forum-searchbar {
+    width: 180px;
+    margin: 0 auto 10px auto;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.forum-search-type {
+    width: 180px;
+    height: 50px;
+    margin: 0;
+    background-color: #f4f4f4;
+    border: none;
+    border-radius: 10px;
+    font-family: 'Amatic SC', cursive;
+    color: #353535;
+    font-size: 1.5em;
+    padding: 10px;
+}
+
+.forum-search-btn {
+    width: 80px;
+    height: 50px;
+    margin: 0;
+    border: none;
+    background: #228E8E;
+    border-radius: 10px;
+    font-family: 'Amatic SC', cursive;
+    color: #f4f4f4;
+    font-size: 1.5em;
+    padding: 5px;
+}
+
+/*forum posts*/
+
+.forum-content {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.forum-post {
+    border: 2px solid #353535;
+    margin: 30px;
+    padding: 20px;
+    max-width: 60vw;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.forum-question {
+    font-family: 'Roboto', sans-serif;
+    color: #353535;
+    font-weight: 100;
+    margin: 20px 20px 20px 0;
+    line-height: 25px;
+
+}
+
+.forum-answers {
+    font-family: 'Amatic SC', cursive;
+    color: #353535;
+    font-size: 20px;
+    align-self: flex-start;
+
+
+}
+
+.forum-img {
+    max-width: 30%;
+}
+
+.forum-img-container {
+    display: flex;
+    flex-direction: row;
+
+}
