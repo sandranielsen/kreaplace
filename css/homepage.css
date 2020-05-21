@@ -12,18 +12,14 @@
 
 /* searchbar */
 #searchbar {
-<<<<<<< Updated upstream
     width: 35vw;
     margin: 0 auto 10px auto;
     display: flex;
     flex-direction: row-reverse;
-
-=======
      width: 35vw;
      margin: 0 auto 10px auto;
      display: flex;
-     flex-direction: row;
->>>>>>> Stashed changes
+     flex-direction: row-reverse;
 }
 
 #search-type {
