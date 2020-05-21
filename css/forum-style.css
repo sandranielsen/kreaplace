@@ -129,8 +129,13 @@
     border: none;
     background: #f4f4f4;
 
-
 }
+
+.forum-answers:hover {
+    color:#22BEBE;
+}
+
+
 
 .forum-img {
     max-width: 30%;
