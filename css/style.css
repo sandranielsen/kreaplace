@@ -104,11 +104,11 @@ footer p {
     display: none;
     position: absolute;
     background-color: #F4F4F4;
-    min-width: 5vw;
+    width: 6vw;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     right: 0;
-
+    text-align: center;
 }
 
 .dropdown-content a {
@@ -117,7 +117,7 @@ footer p {
     text-decoration: none;
     display: block;
     font-family: "Amatic SC", "sans-serif";
-    font-size: 1.5em;
+    font-size: 1.4vw;
 }
 
 .dropdown-content a:hover {
