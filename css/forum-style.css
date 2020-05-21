@@ -123,7 +123,8 @@
     color: #353535;
     font-size: 20px;
     align-self: flex-start;
-
+    border: none;
+    background: #ffffff;
 
 }
 
@@ -136,3 +137,15 @@
     flex-direction: row;
 
 }
+
+/*answer section*/
+
+#more {
+    display: none;
+    padding: 2vw 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
+
+
+
