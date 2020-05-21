@@ -183,6 +183,61 @@
     top: 27.5625em !important;
 }
 
+.fp-img-24 {
+    position: absolute;
+    width: 5.625em;
+    left: 15.75em !important;
+    top: 50.5em !important;
+}
+
+.fp-img-25 {
+    position: absolute;
+    width: 6.625em;
+    left: 35.75em !important;
+    top: 50.5em !important;
+}
+
+.fp-img-26 {
+    position: absolute;
+    width: 8em;
+    left: 73em !important;
+    top: 50.5em !important;
+}
+
+.fp-img-27 {
+    position: absolute;
+    width: 9em;
+    left: 100em !important;
+    top: 50.5em !important;
+}
+
+.fp-img-28 {
+    position: absolute;
+    width: 9em;
+    left: 105em !important;
+    top: 35.5em !important;
+}
+
+.fp-img-29 {
+    position: absolute;
+    width: 5em;
+    left: 100em !important;
+    top: 25.5em !important;
+}
+
+.fp-img-30 {
+    position: absolute;
+    width: 8em;
+    left: 105em !important;
+    top: 10em !important;
+}.fp-img-31 {
+    position: absolute;
+    width: 5em;
+    left: 95em !important;
+    top: 1em !important;
+}
+
+
 .frontpage-wrapper {
     display: flex;
     position: absolute;
