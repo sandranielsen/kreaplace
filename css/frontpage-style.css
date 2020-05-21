@@ -180,18 +180,30 @@
     height: 141px;
     left: 1433px !important;
     top: 696px !important;
-
 }
 
 .fp-img-21 {
-
     position: absolute;
     width: 89px;
     height: 152px;
     left: 1388px !important;
     top: 509px !important;
+}
 
+.fp-img-22 {
+    position: absolute;
+    width: 110px;
+    height: 188px;
+    left: 936px !important;
+    top: 285px !important;
+}
 
+.fp-img-23 {
+    position: absolute;
+    width: 146.04px;
+    height: 153.79px;
+    left: 1123px !important;
+    top: 441.45px !important;
 }
 
 .frontpage-wrapper {
