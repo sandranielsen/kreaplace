@@ -20,190 +20,167 @@
 /*background images*/
 .fp-img-1 {
     position: absolute;
-    width: 89px;
-    height: 152px;
-    left: 45px !important;
-    top: 38px !important;
+    width: 5.5625em;
+    left: 2.8125em !important;
+    top: 2.375em !important;
 }
 
 .fp-img-2 {
     position: absolute;
-    width: 108px;
-    height: 107px;
-    left: 255px !important;
-    top: 136px !important;
+    width: 6.75em;
+    left: 15.9em !important;
+    top: 8.5em !important;
 }
 
 .fp-img-3 {
     position: absolute;
-    width: 75px;
-    height: 123px;
-    left: 493px !important;
-    top: 55px !important;
+    width: 4.6875em;
+    left: 30.8125em !important;
+    top: 3.4375em !important;
 }
 
 .fp-img-4 {
     position: absolute;
-    width: 146.04px;
-    height: 153.79px;
-    left: 784.97px !important;
-    top: 19.45px !important;
+    width: 9.125em;
+    left: 49.0625em !important;
+    top: 1.25em !important;
 }
 
 
 .fp-img-5 {
     position: absolute;
-    width: 89px;
-    height: 152px;
-    left: 1079px !important;
-    top: 41px !important;
+    width: 5.5625em;
+    left: 67.4375em !important;
+    top: 2.5625em !important;
 }
 
 .fp-img-6 {
     position: absolute;
-    width: 108px;
-    height: 107px;
-    left: 1372px !important;
-    top: -54px !important;
+    width: 6.75em;
+    left: 85.75em !important;
+    top: -3.375em !important;
 }
 
 
 .fp-img-7 {
     position: absolute;
-    width: 96px;
-    height: 157px;
-    left: 1284px !important;
-    top: 90px !important;
+    width: 6em;
+    left: 80.25em !important;
+    top: 5.625em !important;
 }
 
 .fp-img-8 {
     position: absolute;
-    width: 75.91px;
-    height: 74.13px;
-    left: 1367px !important;
-    top: 276px !important;
+    width: 4.75em;
+    left: 85.4375em !important;
+    top: 17.25em !important;
 }
 
 .fp-img-9 {
     position: absolute;
-    width: 32.43px;
-    height: 101.68px;
-    left: 126px !important;
-    top: 248px !important;
+    width: 2em;
+    left: 7.875em !important;
+    top: 15.5em !important;
 }
 
 .fp-img-10 {
     position: absolute;
-    width: 81px;
-    height: 85px;
-    left: -41px !important;
-    top: 387px !important;
+    width: 5.0625em;
+    left: -2.5625em !important;
+    top: 24.1875em !important;
 }
 
 .fp-img-11 {
     position: absolute;
-    width: 66px;
-    height: 117px;
-    left: 460px !important;
-    top: 336px !important;
+    width: 4.125em;
+    left: 28.75em !important;
+    top: 21em !important;
 }
 
 .fp-img-12 {
     position: absolute;
-    width: 133px;
-    height: 133px;
-    left: 629px !important;
-    top: 233px !important;
+    width: 8.3125em;
+    left: 39.3125em !important;
+    top: 14.5625em !important;
 }
 
 .fp-img-13 {
     position: absolute;
-    width: 80px;
-    height: 80px;
-    left: 118px !important;
-    top: 479px !important;
+    width: 5em;
+    left: 7.375em !important;
+    top: 29.9375em !important;
 }
 
 .fp-img-14 {
     position: absolute;
-    width: 101px;
-    height: 108px;
-    left: 164px !important;
-    top: 681px !important;
+    width: 6.3125em;
+    left: 10.25em !important;
+    top: 42.5625em !important;
 }
 
 .fp-img-15 {
     position: absolute;
-    width: 115px;
-    height: 188px;
-    left: 424px !important;
-    top: 595px !important;
+    width: 7.1875em;
+    left: 26.5em !important;
+    top: 37.1875em !important;
 }
 
 .fp-img-16 {
     position: absolute;
-    width: 90px;
-    height: 94px;
-    left: 652px !important;
-    top: 584px !important;
+    width: 5.625em;
+    left: 40.75em !important;
+    top: 36.5em !important;
 }
 
 .fp-img-17 {
     position: absolute;
-    width: 101.78px;
-    height: 81.43px;
-    left: 642px !important;
-    top: 469px !important;
+    width: 3.125em;
+    left: 40.125em !important;
+    top: 29.3125em !important;
 }
 
 .fp-img-18 {
     position: absolute;
-    width: 110px;
-    height: 188px;
-    left: 859px !important;
-    top: 644px !important;
+    width: 6.875em;
+    left: 53.6875em !important;
+    top: 40.25em !important;
 
 }
 
 .fp-img-19 {
     position: absolute;
-    width: 62.73px;
-    height: 59px;
-    left: 1059px !important;
-    top: 698px !important;
+    width: 3.9375em;
+    left: 66.1875em !important;
+    top: 43.625em !important;
 
 }
 
 .fp-img-20 {
     position: absolute;
-    width: 85px;
-    height: 141px;
-    left: 1433px !important;
-    top: 696px !important;
+    width: 5.3125em;
+    left: 89.5625em !important;
+    top: 43.5em !important;
 }
 
 .fp-img-21 {
     position: absolute;
-    width: 89px;
-    height: 152px;
-    left: 1388px !important;
-    top: 509px !important;
+    width: 5.5625em;
+    left: 86.75em !important;
+    top: 31.8125em !important;
 }
 
 .fp-img-22 {
     position: absolute;
-    width: 110px;
-    height: 188px;
-    left: 936px !important;
-    top: 285px !important;
+    width: 6.875em;
+    left: 58.5em !important;
+    top: 17.8125em !important;
 }
 
 .fp-img-23 {
     position: absolute;
-    width: 146.04px;
-    height: 153.79px;
-    left: 1123px !important;
-    top: 441.45px !important;
+    width: 9.125em;
+    left: 70.1875em !important;
+    top: 27.5625em !important;
 }
 
 .frontpage-wrapper {
@@ -241,6 +218,7 @@
     justify-content: center;
     margin: auto;
 
+
 }
 
 
@@ -265,6 +243,7 @@
     top: 20%;
     left: 55%;
     z-index: 20;
+    animation: goback 1s ease-in-out;
 
 
 
@@ -276,6 +255,8 @@
     top: 10%;
     left: 60%;
     z-index: 19;
+    animation: gofront 1s ease-in-out;
+    animation-direction: alternate;
 
 
 }
@@ -332,4 +313,57 @@ input::placeholder {
     height: 50px;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
+}
+
+
+/*switch animation - front and back*/
+
+@keyframes goback {
+    0% {
+        top: 20%;
+        left: 55%;
+        z-index: 20;
+    }
+
+    50% {
+        top: 15%;
+        left: 45%;
+        z-index: 20;
+    }
+
+    60% {
+
+        z-index: 19;
+    }
+
+    100% {
+        top: 10%;
+        left: 60%;
+        z-index: 19;
+    }
+}
+
+@keyframes gofront {
+    50% {
+        top: 10%;
+        left: 60%;
+        z-index: 19;
+    }
+
+    50% {
+        top: 15%;
+        left: 70%;
+        z-index: 19;
+    }
+
+    60% {
+
+        z-index: 20;
+    }
+
+    100% {
+        top: 20%;
+        left: 55%;
+        z-index: 20;
+    }
 }
