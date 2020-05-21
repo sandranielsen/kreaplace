@@ -39,6 +39,8 @@ header {
     font-family: "Amatic SC";
     font-size: 2em;
     color: #353535;
+    position: relative;
+    ;
 }
 
 nav {
@@ -127,4 +129,24 @@ footer p {
 
 .show {
     display: block;
+}
+
+/* menu highlighter */
+/* source: https://stackoverflow.com/questions/32902163/line-through-animation-when-hovered */
+
+.nav-link::after {
+    content: ' ';
+    position: absolute;
+    top: 50%;
+    transform: translateY(50%);
+    width: 0;
+    left: 0;
+    height: 2px;
+    background: currentColor;
+    transition: width 0.25s ease-in-out;
+    color: #22BEBE;
+}
+
+.nav-link:hover::after {
+    width: 100%;
 }
