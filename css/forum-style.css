@@ -115,7 +115,6 @@
     font-weight: 100;
     margin: 20px 20px 20px 0;
     line-height: 25px;
-
 }
 
 .forum-answers {
@@ -130,6 +129,7 @@
 
 .forum-img {
     max-width: 30%;
+    float: right;
 }
 
 .forum-img-container {
@@ -147,5 +147,17 @@
     font-weight: 100;
 }
 
+#more1 {
+    display: none;
+    padding: 2vw 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
 
+#more2 {
+    display: none;
+    padding: 2vw 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+}
 
