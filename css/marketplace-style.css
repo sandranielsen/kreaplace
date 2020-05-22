@@ -126,3 +126,35 @@
     display: flex;
     margin: 30px 100px;
 }
+
+/* images overlay */
+
+.image-container {
+    text-align: center;
+    position: relative;
+    width: 15vw;
+}
+
+.image-content {
+    position: absolute;
+    visibility: hidden;
+    width: 100%;
+    bottom: 0;
+    color: #f4f4f4;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 4px;
+}
+
+.image-title {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 5vh;
+}
+
+.image-price {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 3vh;
+}
+
+.image-container:hover .image-content {
+    visibility: visible;
+}
