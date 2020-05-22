@@ -91,10 +91,14 @@
     font-family: "Amatic SC";
     font-size: 2vw;
 }
-
-.button_container {
+#hp-pages {
+    font-family: 'Amatic SC', sans-serif;
+    color: #353535;
+    font-size: 2em;
+    font-weight: 700;
     display: flex;
-    justify-content: flex-end;
-    padding: 0 15vw 2vw 35vw;
+    justify-content: center;
+    margin: 30px 100px;
 }
+
 
