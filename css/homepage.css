@@ -16,7 +16,12 @@
     margin: 1.5vw auto 1.5vw auto;
     display: flex;
     flex-direction: row-reverse;
-     width: 35vw;
+    <<<<<<< Updated upstream width: 35vw;
+    =======width: 35vw;
+    margin: 0 auto 10px auto;
+    display: flex;
+    flex-direction: row-reverse;
+    >>>>>>>Stashed changes
 }
 
 #search-type {
@@ -105,4 +110,34 @@
     display: flex;
     justify-content: center;
     margin: 30px 100px;
+}
+
+.image-container {
+    text-align: center;
+    position: relative;
+    width: 15vw;
+}
+
+.image-content {
+    position: absolute;
+    visibility: hidden;
+    width: 100%;
+    bottom: 0;
+    color: #f4f4f4;
+    background-color: rgba(0, 0, 0, 0.5);
+    margin-bottom: 4px;
+}
+
+.image-title {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 5vh;
+}
+
+.image-price {
+    font-family: "Amatic SC", sans-serif;
+    font-size: 3vh;
+}
+
+.image-container:hover .image-content {
+    visibility: visible;
 }

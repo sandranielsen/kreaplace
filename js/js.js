@@ -1,6 +1,6 @@
 // dropdown menu - source: https://www.w3schools.com/howto/howto_js_dropdown.asp
 
-function myFunction() {
+function dropdown() {
      document.getElementById("myDropdown").classList.toggle("show");
 }
 
@@ -16,4 +16,3 @@ window.onclick = function (event) {
           }
      }
 }
-
