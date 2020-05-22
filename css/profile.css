@@ -7,6 +7,8 @@
     font-family: "sans-serif";
 }
 
+/*profile section*/
+
 .profile_header {
     height: 10vw;
     display: flex;
@@ -43,6 +45,8 @@
     font-weight: 100;
 }
 
+/*profile settings*/
+
 .profile_settings {
     display: flex;
     flex-direction: column;
@@ -72,6 +76,8 @@
     font-size: 2vw;
 }
 
+/*gallery*/
+
 .profile_gallery {
     display: grid;
     grid-template-columns: 22.5% 22.5% 22%;
@@ -97,8 +103,8 @@
     font-size: 2em;
     font-weight: 700;
     display: flex;
-    justify-content: center;
-    margin: 30px 100px;
+    justify-content: flex-end;
+    margin: 30px 300px;
 }
 
 
