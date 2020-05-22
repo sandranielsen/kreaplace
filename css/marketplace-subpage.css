@@ -81,3 +81,9 @@
         padding: 5px;
 
     }
+
+    .profile_link {
+        font-family: 'Amatic SC', cursive;
+        color: #353535;
+        text-decoration: none;
+    }
