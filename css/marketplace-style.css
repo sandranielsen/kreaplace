@@ -65,6 +65,26 @@
 
 }
 
+/* menu highlighter */
+/* source: https://stackoverflow.com/questions/32902163/line-through-animation-when-hovered */
+
+.mp-nav-el::after {
+    content: ' ';
+    position: absolute;
+    transform: translateY(50%);
+    width: 50px;
+    left: 0;
+    height: 2px;
+    background: currentColor;
+    transition: width 0.25s ease-in-out;
+    color: #22BEBE;
+    margin-top: 8%;
+}
+
+.mp-nav-el:hover::after {
+    width: 100%;
+}
+
 /*searchbar*/
 .mp-searchbar {
     width: 250px;
@@ -115,6 +135,8 @@
 
 .mp-img {
     width: 100%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .mp-pages {
