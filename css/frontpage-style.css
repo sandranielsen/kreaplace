@@ -230,7 +230,9 @@
     width: 8em;
     left: 105em !important;
     top: 10em !important;
-}.fp-img-31 {
+}
+
+.fp-img-31 {
     position: absolute;
     width: 5em;
     left: 95em !important;
@@ -280,10 +282,6 @@
 
 .fp-login,
 .fp-signin {
-    /*
-    height: 500px;
-    width: 360px;
-*/
     height: 65%;
     width: 23%;
     justify-content: space-between;
@@ -295,24 +293,30 @@
 
 .fp-login {
     background-color: #DBEDEE;
-    top: 20%;
-    left: 55%;
-    z-index: 20;
-    animation: goback 1s ease-in-out;
-
 
 
 
 }
 
+.front {
+    top: 20%;
+    left: 55%;
+    z-index: 20;
+    /*    animation: goback 1s ease-in-out;*/
+
+}
+
 .fp-signin {
     background: #228E8E;
+
+
+}
+
+.back {
     top: 10%;
     left: 60%;
     z-index: 19;
-    animation: gofront 1s ease-in-out;
-    animation-direction: alternate;
-
+    /*    animation: gofront 1s ease-in-out;*/
 
 }
 
