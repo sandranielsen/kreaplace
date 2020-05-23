@@ -12,8 +12,6 @@
     position: sticky;
     float: left;
     top: 10px;
-
-
 }
 
 *,
@@ -24,7 +22,6 @@
     box-sizing: border-box;
     font-family: "sans-serif";
 }
-
 
 /*forum*/
 .forum-middlepart {

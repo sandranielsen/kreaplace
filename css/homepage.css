@@ -11,6 +11,7 @@
 }
 
 /* searchbar */
+
 #searchbar {
     width: 35vw;
     margin: 1.5vw auto 1.5vw auto;
@@ -138,4 +139,28 @@
 
 .image-container:hover .image-content {
     visibility: visible;
+    animation: showup 0.2s;
+    transition: ease-out;
+}
+
+@keyframes showup {
+    0% {
+        opacity: 0%;
+    }
+
+    25% {
+        opacity: 25%;
+    }
+
+    50% {
+        opacity: 50%;
+    }
+
+    75% {
+        opacity: 75%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
 }
