@@ -1,15 +1,37 @@
 let childA = document.querySelector('#loginFP');
 let childB = document.querySelector('#signinFP');
 
-function myFunctionFP(element) {
-    if (childA.classList.contains('front'));
-    console.log('i have class');
-}
-console.log('i dont have');
+function myFunctionFP() {
+    if (childA.classList.contains('front')) {
+        childA.classList.remove('front');
+        childA.classList.add('back');
+        childB.classList.remove('back');
+        childB.classList.add('front');
+
+    } else {
 
 
-function myFunctionFP1(element) {
-    if (childA.classList.contains('front'));
-    console.log('i have class too');
+        childA.classList.remove('back');
+        childA.classList.add('front');
+        childB.classList.remove('front');
+        childB.classList.add('back');
+    }
 }
-console.log('i dont have too');
+
+
+function myFunctionFP1() {
+    if (childB.classList.contains('back')) {
+        childB.classList.remove('back');
+        childB.classList.add('front');
+        childA.classList.remove('front');
+        childA.classList.add('back');
+
+    } else {
+        childB.classList.remove('front');
+        childB.classList.add('back');
+        childA.classList.remove('back');
+        childA.classList.add('front');
+
+
+    }
+}
