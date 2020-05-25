@@ -49,8 +49,9 @@
 .about_text {
     font-family: 'Roboto', sans-serif;
     font-weight: 100;
-    font-size: 1.5vw;
+    font-size: 1.3vw;
     color: #353535;
+    line-height: 2.5vw;
 }
 
 .about_image {
