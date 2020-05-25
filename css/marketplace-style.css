@@ -113,6 +113,8 @@
     margin: 0 3vw 10px 3vw;
     display: flex;
     flex-direction: row-reverse;
+    border-radius: 10px;
+
 
 }
 
