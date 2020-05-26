@@ -220,3 +220,13 @@
         opacity: 100%;
     }
 }
+
+
+#bookmark-container {
+    position: absolute;
+    right: 0.8vw;
+    height: 5vh;
+    width: 2vw;
+    cursor: pointer;
+}
+
