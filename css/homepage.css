@@ -10,7 +10,7 @@
     background-repeat: no-repeat;
     text-align: center;
     padding: 10%;
-    animation: homebanner 15s infinite;
+    animation: homebanner 15s infinite linear;
 }
 
 @keyframes homebanner {
