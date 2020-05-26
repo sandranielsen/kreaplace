@@ -22,13 +22,6 @@
 
     }
 
-    19% {
-        background-image: linear-gradient(rgba(0, 0.3, 0, 0.3),
-                rgba(0, 0, 0, 0.0)),
-            url(../media/banners/b11.jpg);
-
-    }
-
     20% {
         background-image: linear-gradient(rgba(0, 0.3, 0, 0.3),
                 rgba(0, 0, 0, 0.0)),
@@ -214,5 +207,6 @@
     position: absolute;
     right: 0.8vw;
     height: 5vh;
-    width: 2vw;
+    width: 2vw; 
+    cursor: pointer;
 }
