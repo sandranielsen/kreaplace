@@ -1,7 +1,7 @@
 // dropdown menu - source: https://www.w3schools.com/howto/howto_js_dropdown.asp
 
 function dropdown() {
-     document.getElementById("myDropdown").classList.toggle("show");
+     document.getElementById("dropdown-container").classList.toggle("show");
 }
 
 window.onclick = function (event) {
