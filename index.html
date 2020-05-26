@@ -2,191 +2,206 @@
 <html lang="">
 
 <head>
-	<meta charset="utf-8">
-	<title>Home | KreaPlace</title>
-	<meta name="author" content="Your Name">
-	<meta name="KreaPlace - Home"
-		content="Welcome to the World of KreaPlace - a creative community for knitting and crocheting enthusiasts">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link rel="stylesheet" href="css/style.css">
-	<link rel="stylesheet" href="css/homepage.css">
-	<link rel="icon" type="image/x-icon" href="" />
-	<link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap"
-		rel="stylesheet">
-	<script src="https://kit.fontawesome.com/56fd6ca9bb.js" crossorigin="anonymous"></script>
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta charset="utf-8">
+    <title>Home | KreaPlace</title>
+    <meta name="author" content="Your Name">
+    <meta name="KreaPlace - Home" content="Welcome to the World of KreaPlace - a creative community for knitting and crocheting enthusiasts">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/homepage.css">
+    <link rel="icon" type="image/x-icon" href="" />
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/56fd6ca9bb.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
 
 <body>
-	<header>
-		<a href="index.html"><img src="media/KreaPlace_logo_small.png" alt="logo" id="logo"></a>
-		<nav>
-			<a href="subpages/about.html" class="nav-link">Our KreaPlace </a>
+    <header>
+        <a href="index.html"><img src="media/KreaPlace_logo_small.png" alt="logo" id="logo"></a>
+        <nav>
+            <a href="subpages/about.html" class="nav-link">Our KreaPlace </a>
 
-			<a href="subpages/marketplace.html" class="nav-link">Marketplace</a>
-			<a href="subpages/forum.html" class="nav-link">Forum</a>
-		</nav>
-		<div id="plusprofile">
-			<a href="subpages/newpost.html"><img src="media/plus_small.png" alt="plus" id="plus"></a>
+            <a href="subpages/marketplace.html" class="nav-link">Marketplace</a>
+            <a href="subpages/forum.html" class="nav-link">Forum</a>
+        </nav>
+        <div id="plusprofile">
+            <a href="subpages/newpost.html"><img src="media/plus_small.png" alt="plus" id="plus"></a>
 
-			<!-- dropdown menu - source: https://www.w3schools.com/howto/howto_js_dropdown.asp -->
-			<div class="dropdown">
-				<img src="media/profile.png" onclick="dropdown()" alt="profile picture" id="profile-pic"
-					class="dropbtn">
-				<div id="dropdown-container" class="dropdown-content">
-					<a href="subpages/profile.html">Profile</a>
-					<a href="subpages/frontpage.html">Log Out</a>
-				</div>
-			</div>
-		</div>
+            <!-- dropdown menu - source: https://www.w3schools.com/howto/howto_js_dropdown.asp -->
+            <div class="dropdown">
+                <img src="media/profile.png" onclick="dropdown()" alt="profile picture" id="profile-pic" class="dropbtn">
+                <div id="dropdown-container" class="dropdown-content">
+                    <a href="subpages/profile.html">Profile</a>
+                    <a href="subpages/frontpage.html">Log Out</a>
+                </div>
+            </div>
+        </div>
 
-	</header>
-	<main>
-		<div id="banner-container">
-			<div id="searchbar">
-				<input id="search-type" type="text">
+    </header>
+    <main>
+        <div id="banner-container">
+            <div id="searchbar">
+                <input id="search-type" type="text">
 
-				<input id="search-btn" type="button" value="Search">
-			</div>
-		</div>
-		<div id="selection-container">
-			<div><input class='forms-btn' type="button" value="Knitting"></div>
-			<div><input class='forms-btn' type="button" value="Crocheting"></div>
-		</div>
-		<h2 id="hp-title">Get Inspired...</h2>
+                <input id="search-btn" type="button" value="Search">
+            </div>
+        </div>
+        <div id="selection-container">
+            <div><input class='forms-btn' type="button" value="Knitting"></div>
+            <div><input class='forms-btn' type="button" value="Crocheting"></div>
+        </div>
+        <h2 id="hp-title">Get Inspired...</h2>
 
-		<div id="hp-gallery">
-			<div class="image-container">
-				<div id="bookmark-container">
-					<img src="media/bookmark_empty.svg" id="bookmark">
-				</div>
-				<div class="image-content">
-					<h2 class="image-title">Cute Koala</h2>
-				</div>
-				<a href="subpages/homefeed-subpage.html"><img src="media/inspiration1.jpg" alt=""
-						class="hp-img"></a>
-			</div>
-			<div class="image-container">
-				<div class="image-content">
-					<h2 class="image-title">Delicate Mohair Sweater</h2>
+        <div id="hp-gallery">
+            <div class="image-container">
+                <div id="bookmark-container" onclick="changeImage(this)">
+                    <img src="media/bookmark_empty.svg" class="bookmark">
+                </div>
+                <div class="image-content">
+                    <h2 class="image-title">Cute Koala</h2>
+                </div>
+                <a href="subpages/homefeed-subpage.html"><img src="media/inspiration1.jpg" alt="" class="hp-img"></a>
+            </div>
+            <div class="image-container">
+                <div id="bookmark-container" onclick="changeImage(this)">
+                    <img src="media/bookmark_empty.svg" class="bookmark">
+                </div>
+                <div class="image-content">
+                    <h2 class="image-title">Delicate Mohair Sweater</h2>
 
-				</div>
-				<a href="subpages/homefeed-subpage.html"><img src="media/inspiration2.jpg" alt=""
-						class="hp-img"></a>
-			</div>
-			<div class="image-container">
+                </div>
+                <a href="subpages/homefeed-subpage.html"><img src="media/inspiration2.jpg" alt="" class="hp-img"></a>
+            </div>
+            <div class="image-container">
+                <div id="bookmark-container" onclick="changeImage(this)">
+                    <img src="media/bookmark_empty.svg" class="bookmark">
+                </div>
+                <div class="image-content">
+                    <h2 class="image-title">French Market Bags</h2>
 
-				<div class="image-content">
-					<h2 class="image-title">French Market Bags</h2>
+                </div>
+                <a href="subpages/homefeed-subpage.html"><img src="media/inspiration3.jpg" alt="" class="hp-img"></a>
+            </div>
+            <div class="image-container">
+                <div id="bookmark-container" onclick="changeImage(this)">
+                    <img src="media/bookmark_empty.svg" class="bookmark">
+                </div>
+                <div class="image-content">
+                    <h2 class="image-title">Adorable Realistic Bunny</h2>
 
-				</div>
-				<a href="subpages/homefeed-subpage.html"><img src="media/inspiration3.jpg" alt=""
-						class="hp-img"></a>
-			</div>
-			<div class="image-container">
-				<div class="image-content">
-					<h2 class="image-title">Adorable Realistic Bunny</h2>
+                </div>
+                <a href="subpages/homefeed-subpage.html"><img src="media/inspiration4.jpg" alt="" class="hp-img"></a>
+            </div>
+            <div class="image-container">
+                <div id="bookmark-container" onclick="changeImage(this)">
+                    <img src="media/bookmark_empty.svg" class="bookmark">
+                </div>
+                <div class="image-content">
+                    <h2 class="image-title">Cozy Winter Sweater</h2>
 
-				</div>
-				<a href="subpages/homefeed-subpage.html"><img src="media/inspiration4.jpg" alt=""
-						class="hp-img"></a>
-			</div>
-			<div class="image-container">
-				<div class="image-content">
-					<h2 class="image-title">Cozy Winter Sweater</h2>
+                </div>
+                <a href="subpages/homefeed-subpage.html"><img src="media/inspiration5.jpg" alt="" class="hp-img"></a>
+            </div>
+            <div class="image-container">
+                <div id="bookmark-container" onclick="changeImage(this)">
+                    <img src="media/bookmark_empty.svg" class="bookmark">
+                </div>
+                <div class="image-content">
+                    <h2 class="image-title">Perfect Summer Crop Top</h2>
 
-				</div>
-				<a href="subpages/homefeed-subpage.html"><img src="media/inspiration5.jpg" alt=""
-						class="hp-img"></a>
-			</div>
-			<div class="image-container">
-				<div class="image-content">
-					<h2 class="image-title">Perfect Summer Crop Top</h2>
+                </div>
+                <a href="subpages/homefeed-subpage.html"><img src="media/inspiration6.jpg" alt="" class="hp-img"></a>
+            </div>
+            <div class="image-container">
+                <div id="bookmark-container" onclick="changeImage(this)">
+                    <img src="media/bookmark_empty.svg" class="bookmark">
+                </div>
+                <div class="image-content">
+                    <h2 class="image-title">Minimalist Crochet Bowls</h2>
 
-				</div>
-				<a href="subpages/homefeed-subpage.html"><img src="media/inspiration6.jpg" alt=""
-						class="hp-img"></a>
-			</div>
-			<div class="image-container">
-				<div class="image-content">
-					<h2 class="image-title">Minimalist Crochet Bowls</h2>
+                </div>
+                <a href="subpages/homefeed-subpage.html"><img src="media/inspiration7.jpg" alt="" class="hp-img"></a>
+            </div>
+            <div class="image-container">
+                <div id="bookmark-container" onclick="changeImage(this)">
+                    <img src="media/bookmark_empty.svg" class="bookmark">
+                </div>
+                <div class="image-content">
+                    <h2 class="image-title">Pink Turtle Neck Sweater</h2>
 
-				</div>
-				<a href="subpages/homefeed-subpage.html"><img src="media/inspiration7.jpg" alt=""
-						class="hp-img"></a>
-			</div>
-			<div class="image-container">
-				<div class="image-content">
-					<h2 class="image-title">Pink Turtle Neck Sweater</h2>
+                </div>
+                <a href="subpages/homefeed-subpage.html"><img src="media/inspiration8.jpg" alt="" class="hp-img"></a>
+            </div>
+            <div class="image-container">
+                <div id="bookmark-container" onclick="changeImage(this)">
+                    <img src="media/bookmark_empty.svg" class="bookmark">
+                </div>
+                <div class="image-content">
+                    <h2 class="image-title">Simple Beanie</h2>
 
-				</div>
-				<a href="subpages/homefeed-subpage.html"><img src="media/inspiration8.jpg" alt=""
-						class="hp-img"></a>
-			</div>
-			<div class="image-container">
-				<div class="image-content">
-					<h2 class="image-title">Simple Beanie</h2>
+                </div>
+                <a href="subpages/homefeed-subpage.html"><img src="media/inspiration9.jpg" alt="" class="hp-img"></a>
+            </div>
+            <div class="image-container">
+                <div id="bookmark-container" onclick="changeImage(this)">
+                    <img src="media/bookmark_empty.svg" class="bookmark">
+                </div>
+                <div class="image-content">
+                    <h2 class="image-title">Cotton Sweater Vests</h2>
 
-				</div>
-				<a href="subpages/homefeed-subpage.html"><img src="media/inspiration9.jpg" alt=""
-						class="hp-img"></a>
-			</div>
-			<div class="image-container">
-				<div class="image-content">
-					<h2 class="image-title">Cotton Sweater Vests</h2>
+                </div>
+                <a href="subpages/homefeed-subpage.html"><img src="media/inspiration10.jpg" alt="" class="hp-img"></a>
+            </div>
+            <div class="image-container">
+                <div id="bookmark-container" onclick="changeImage(this)">
+                    <img src="media/bookmark_empty.svg" class="bookmark">
+                </div>
+                <div class="image-content">
+                    <h2 class="image-title">Dainty Ankle Socks</h2>
 
-				</div>
-				<a href="subpages/homefeed-subpage.html"><img src="media/inspiration10.jpg" alt=""
-						class="hp-img"></a>
-			</div>
-			<div class="image-container">
-				<div class="image-content">
-					<h2 class="image-title">Dainty Ankle Socks</h2>
+                </div>
+                <a href="subpages/homefeed-subpage.html"><img src="media/inspiration11.jpg" alt="" class="hp-img"></a>
+            </div>
+            <div class="image-container">
+                <div id="bookmark-container" onclick="changeImage(this)">
+                    <img src="media/bookmark_empty.svg" class="bookmark">
+                </div>
+                <div class="image-content">
+                    <h2 class="image-title">Fuzzy Mittens</h2>
 
-				</div>
-				<a href="subpages/homefeed-subpage.html"><img src="media/inspiration11.jpg" alt=""
-						class="hp-img"></a>
-			</div>
-			<div class="image-container">
-				<div class="image-content">
-					<h2 class="image-title">Fuzzy Mittens</h2>
+                </div>
+                <a href="subpages/homefeed-subpage.html"><img src="media/inspiration12.jpg" alt="" class="hp-img"></a>
+            </div>
 
-				</div>
-				<a href="subpages/homefeed-subpage.html"><img src="media/inspiration12.jpg" alt=""
-						class="hp-img"></a>
-			</div>
-
-		</div>
+        </div>
 
 
-	</main>
-	<footer>
-		<div class="footer-content">
-			<h2 class="footer-title">Sell</h2>
-			<p>Sell on KreaPlace</p>
-			<p>Copyright Policies</p>
-		</div>
-		<div class="footer-content">
-			<h2 class="footer-title">Help</h2>
-			<p>Help Center</p>
-			<p>Guidelines</p>
-			<p>Contact Us</p>
-		</div>
-		<div class="footer-content">
-			<h2 class="footer-title">Follow Us
-			</h2>
-			<div class="some-element">
-				<img src="media/instagram-brands.svg" class="some-icon">
-				<p>Instagram</p>
-			</div>
-			<div class="some-element">
-				<img src="media/facebook-square-brands.svg" class="some-icon">
-				<p>Facebook</p>
-			</div>
-		</div>
-	</footer>
-	<script type="text/javascript" src="js/js.js"></script>
-	<script type="text/javascript" src="js/homepage.js"></script>
-</body>
-
-</html>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <h2 class="footer-title">Sell</h2>
+            <p>Sell on KreaPlace</p>
+            <p>Copyright Policies</p>
+        </div>
+        <div class="footer-content">
+            <h2 class="footer-title">Help</h2>
+            <p>Help Center</p>
+            <p>Guidelines</p>
+            <p>Contact Us</p>
+        </div>
+        <div class="footer-content">
+            <h2 class="footer-title">Follow Us
+            </h2>
+            <div class="some-element">
+                <img src="media/instagram-brands.svg" class="some-icon">
+                <p>Instagram</p>
+            </div>
+            <div class="some-element">
+                <img src="media/facebook-square-brands.svg" class="some-icon">
+                <p>Facebook</p>
+            </div>
+        </div>
+    </footer>
+    <script type="text/javascript" src="js/js.js"></script>
+    <script type="text/javascript" src="js/homepage.js"></script>
+</body></html>
