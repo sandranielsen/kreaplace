@@ -70,6 +70,10 @@
     border-radius: 0.5vw;
 }
 
+#section1 {
+    animation: fadein 3s;
+}
+
 @keyframes fadein {
     from {
         opacity: 0;
