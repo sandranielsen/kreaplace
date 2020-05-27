@@ -79,6 +79,25 @@ footer p {
     font-weight: 100;
 }
 
+/*SoMe*/
+
+.some-element {
+    display: flex;
+    flex-direction: row;
+    width: auto;
+    text-decoration: none;
+
+
+
+
+}
+
+.some-element a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+
 .some-icon {
     fill: #F4F4F4;
     height: 2vh;
@@ -86,9 +105,11 @@ footer p {
     margin-top: 1.4vh;
 }
 
-.some-element {
-    display: flex;
-    flex-direction: row;
+
+
+.some-text {
+    text-decoration: none;
+    color: #f4f4f4;
 }
 
 /* dropdown menu - source: https://www.w3schools.com/howto/howto_js_dropdown.asp */
