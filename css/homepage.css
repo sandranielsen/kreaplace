@@ -129,6 +129,19 @@ button:focus {
     border: none;
 }
 
+.forms-btn1 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.7vw;
+    margin: 30px auto 80px;
+    width: 10vw;
+    height: 10vh;
+    box-shadow: 10px 10px 0px 0px #353535;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border: none;
+    background-color: #228E8E;
+    color: #f4f4f4;
+}
+
 .forms-btn:hover {
     background-color: #228E8E;
     color: #f4f4f4;
