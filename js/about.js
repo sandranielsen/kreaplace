@@ -16,5 +16,5 @@ window.addEventListener("scroll", function () {
 });
 
 function elVisible(el) {
-     return (el.getBoundingClientRect().top >= 0 && el.getBoundingClientRect().bottom < window.innerHeight);
+     return (el.getBoundingClientRect().top >= 0 && (el.getBoundingClientRect().bottom) - 250 < window.innerHeight);
 }
