@@ -24,10 +24,10 @@
     object-fit: contain;
     background-repeat: no-repeat;
     text-align: center;
-    /*    padding: 10%;*/
     justify-content: center;
     align-content: center;
     margin-bottom: 100px;
+    background-position: center;
 }
 
 
