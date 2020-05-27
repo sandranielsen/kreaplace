@@ -36,6 +36,7 @@ input:focus {
     font-size: 4vw;
     color: #F4F4F4;
     position: relative;
+    margin: -3vw auto 2vw auto;
 }
 
 .banner_text {
