@@ -58,7 +58,7 @@ input:focus {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-top: 20px
+        margin-top: 20px;
     }
 
     .right-part h3 {
@@ -82,6 +82,7 @@ input:focus {
         text-align: center;
         align-content: center;
         padding: 5px;
+        box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
 
     }
 
