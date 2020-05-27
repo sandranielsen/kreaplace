@@ -7,9 +7,10 @@
         font-family: "sans-serif";
     }
 
-input:focus {
-    outline: none;
-}
+    input:focus {
+        outline: none;
+    }
+
     .mp-sp-main {
         display: flex;
         flex-direction: row;
@@ -17,8 +18,16 @@ input:focus {
         margin: 100px auto 300px;
     }
 
+    #bookmark-container {
+        position: absolute;
+        right: 53vw;
+        height: auto;
+        width: 4vw;
+        cursor: pointer;
+    }
+
     .left-img {
-        height: 30vh;
+        height: 30vw;
         width: 30vw;
         margin: 30px;
     }
@@ -90,14 +99,3 @@ input:focus {
         color: #353535;
         text-decoration: none;
     }
-
-
-#bookmark-container {
-    position: absolute;
-    right: 53vw;
-    height: 5vh;
-    width: 4vw;
-    top: 12.4vw;
-    cursor: pointer;
-}
-
