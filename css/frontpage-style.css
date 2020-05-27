@@ -340,6 +340,11 @@ body {
     color: white;
 }
 
+.input-group {
+    margin: auto;
+    width: 100%;
+}
+
 .forms-inputs {
     font-family: 'Amatic SC', cursive;
     display: flex;
