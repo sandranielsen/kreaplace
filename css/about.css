@@ -14,10 +14,10 @@
     height: 50vh;
     background-image: linear-gradient(rgba(0, 0.5, 0, 0.5),
             rgba(0, 0, 0, 0.0)),
-        url(../media/homefeed1.jpg);
+        url(../media/banners/b20.jpg);
     background-size: 100%;
     object-fit: contain;
-    background-position: bottom;
+    background-position: center;
     background-repeat: no-repeat;
     text-align: center;
     padding: 10%;
@@ -68,6 +68,10 @@
     margin: 5vw 1vw;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
     border-radius: 0.5vw;
+}
+
+#section1 {
+    animation: fadein 3s;
 }
 
 @keyframes fadein {
