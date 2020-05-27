@@ -6,6 +6,10 @@ input:focus {
     outline: none;
 }
 
+button:focus {
+    outline: none;
+}
+
 /* side navigation */
 
 .np-navigation {

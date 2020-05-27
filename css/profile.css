@@ -11,6 +11,10 @@ input:focus {
     outline: none;
 }
 
+button:focus {
+    outline: none;
+}
+
 /*profile section*/
 
 .profile_header {
@@ -105,6 +109,3 @@ input:focus {
     font-family: "Amatic SC";
     font-size: 2vw;
 }
- 
-
-

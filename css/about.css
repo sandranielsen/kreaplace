@@ -7,9 +7,14 @@
     font-family: "sans-serif";
 }
 
+button:focus {
+    outline: none;
+}
+
 input:focus {
     outline: none;
 }
+
 /*banner*/
 
 .banner_container {

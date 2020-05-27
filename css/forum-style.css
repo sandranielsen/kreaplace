@@ -5,6 +5,11 @@
 input:focus {
     outline: none;
 }
+
+button:focus {
+    outline: none;
+}
+
 /*banner*/
 
 
@@ -317,5 +322,3 @@ input:focus {
     width: 2vw;
     cursor: pointer;
 }
-
-

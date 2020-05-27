@@ -15,6 +15,11 @@ input:focus {
     outline: none;
 }
 
+button:focus {
+    outline: none;
+}
+
+
 /*frontpage (sign in/ log in)*/
 .front-page {
     width: 100vw;

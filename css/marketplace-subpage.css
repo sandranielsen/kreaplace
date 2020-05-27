@@ -11,6 +11,10 @@
         outline: none;
     }
 
+    button:focus {
+        outline: none;
+    }
+
     .mp-sp-main {
         display: flex;
         flex-direction: row;
