@@ -7,6 +7,10 @@
     font-family: "sans-serif";
 }
 
+body {
+    overflow: hidden;
+}
+
 /*frontpage (sign in/ log in)*/
 .front-page {
     width: 100vw;
@@ -323,8 +327,8 @@
 /*forms content in frontpage*/
 .forms-title {
     font-family: 'Amatic SC', cursive;
-    font-size: 2.5em;
-    margin: 15px 30px;
+    font-size: 2.8vw;
+    margin: 1vw 2vw;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: #353535;
     cursor: pointer;
@@ -337,11 +341,11 @@
 .forms-inputs {
     font-family: 'Amatic SC', cursive;
     display: flex;
-    font-size: 1.5em;
-    margin: 20px auto;
+    font-size: 1.5vw;
+    margin: 1vw auto;
     position: relative;
     width: 80%;
-    height: 50px;
+    height: 3.5vw;
     padding-left: 10px;
     background: #F4F4F4;
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
@@ -357,9 +361,9 @@ input::placeholder {
 }
 
 .forms-btn {
-    margin: 30px auto 80px;
-    width: 100px;
-    height: 50px;
+    margin: 2vw auto 3vw;
+    width: 7vw;
+    height: 3vw;
     box-shadow: 10px 10px 0px 0px #353535;
     color: #353535;
     border: none;
@@ -368,10 +372,10 @@ input::placeholder {
 
 .forms-btn input {
     font-family: 'Amatic SC', cursive;
-    font-size: 2em;
+    font-size: 2vw;
     border: none;
-    width: 100px;
-    height: 50px;
+    width: 7vw;
+    height: 3vw;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     cursor: pointer;
 }
