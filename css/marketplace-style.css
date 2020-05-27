@@ -109,7 +109,7 @@
 
 /*searchbar*/
 .mp-searchbar {
-    width: 250px;
+    width: 15vw;
     margin: 0 3vw 10px 3vw;
     display: flex;
     flex-direction: row-reverse;
@@ -119,9 +119,9 @@
 }
 
 .mp-search-type {
-    width: 250px;
+    width: 15vw;
     height: 50px;
-    margin: 0;
+    margin: auto;
     background-color: #f4f4f4;
     border: none;
     border-radius: 10px;
@@ -151,10 +151,11 @@
     display: grid;
     grid-template-columns: 30% 30% 30%;
     object-fit: contain;
-    grid-gap: 50px;
-    width: 1000px;
-    margin: auto auto auto auto;
+    width: 60vw;
+    margin: auto auto auto 30vw;
     height: auto;
+    grid-column-gap: 5vw;
+    grid-row-gap: 5vw;
 }
 
 .mp-img {
