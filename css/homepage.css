@@ -129,7 +129,10 @@ button:focus {
     border: none;
 }
 
-
+.forms-btn:hover {
+    background-color: #228E8E;
+    color: #f4f4f4;
+}
 
 #hp-title {
     font-family: "Amatic SC", sans-serif;
