@@ -363,7 +363,7 @@ input::placeholder {
 }
 
 .forms-btn {
-    margin: 2vw auto 3vw;
+    margin: auto auto 3vw auto;
     width: 7vw;
     height: 3vw;
     box-shadow: 10px 10px 0px 0px #353535;
