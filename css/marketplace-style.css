@@ -227,7 +227,7 @@ input:focus {
 }
 
 
-#bookmark-container {
+.bookmark-container {
     position: absolute;
     right: 0.8vw;
     height: 5vh;

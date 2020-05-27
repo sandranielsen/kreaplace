@@ -22,7 +22,7 @@
         margin: 100px auto 300px;
     }
 
-    #bookmark-container {
+    .bookmark-container {
         position: absolute;
         right: 53vw;
         height: auto;
