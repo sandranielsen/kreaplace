@@ -46,11 +46,13 @@ button:focus {
 
 .profile_headline {
     font-family: 'Amatic Sc';
+    font-size: 3vw;
 }
 
 .profile_text {
     font-family: 'Roboto';
     font-weight: 100;
+    font-size: 1w;
 }
 
 /*profile settings*/
@@ -70,6 +72,7 @@ button:focus {
     border-radius: 1vw;
     font-family: "Amatic SC";
     font-size: 2vw;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 .button:hover {
@@ -86,6 +89,7 @@ button:focus {
     border-radius: 1vw;
     font-family: "Amatic SC";
     font-size: 2vw;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.25);
 }
 
 /*gallery*/
