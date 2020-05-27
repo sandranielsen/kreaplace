@@ -11,6 +11,10 @@ body {
     overflow: hidden;
 }
 
+input:focus {
+    outline: none;
+}
+
 /*frontpage (sign in/ log in)*/
 .front-page {
     width: 100vw;

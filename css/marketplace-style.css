@@ -7,6 +7,10 @@
     font-family: "sans-serif";
 }
 
+input:focus {
+    outline: none;
+}
+
 /*MARKETPLACE*/
 /*title and description*/
 .mp-main {

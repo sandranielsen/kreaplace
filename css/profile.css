@@ -7,6 +7,10 @@
     font-family: "sans-serif";
 }
 
+input:focus {
+    outline: none;
+}
+
 /*profile section*/
 
 .profile_header {

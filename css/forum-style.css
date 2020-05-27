@@ -2,6 +2,9 @@
     height: auto;
 }
 
+input:focus {
+    outline: none;
+}
 /*banner*/
 
 

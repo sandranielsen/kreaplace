@@ -1,116 +1,120 @@
 main {
-     margin-top: 5vh;
+    margin-top: 5vh;
+}
+
+input:focus {
+    outline: none;
 }
 
 /* side navigation */
 
 .np-navigation {
-     display: flex;
-     flex-direction: column;
-     justify-content: center;
-     width: 300px;
-     height: auto;
-     position: sticky;
-     float: left;
-     top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 300px;
+    height: auto;
+    position: sticky;
+    float: left;
+    top: 30px;
 }
 
 .np-nav-el {
-     font-family: 'Amatic SC', cursive;
-     color: #353535;
-     text-decoration: none;
-     font-size: 2.5em;
-     margin: 10px 0 10px 70px;
+    font-family: 'Amatic SC', cursive;
+    color: #353535;
+    text-decoration: none;
+    font-size: 2.5em;
+    margin: 10px 0 10px 70px;
 }
 
 /* menu highlighter */
 /* source: https://stackoverflow.com/questions/32902163/line-through-animation-when-hovered */
 
 .np-nav-el::after {
-     content: ' ';
-     position: absolute;
-     transform: translateY(50%);
-     width: 50px;
-     left: 0;
-     height: 2px;
-     background: currentColor;
-     transition: width 0.25s ease-in-out;
-     color: #22BEBE;
-     margin-top: 8%;
+    content: ' ';
+    position: absolute;
+    transform: translateY(50%);
+    width: 50px;
+    left: 0;
+    height: 2px;
+    background: currentColor;
+    transition: width 0.25s ease-in-out;
+    color: #22BEBE;
+    margin-top: 8%;
 }
 
 .np-nav-el:hover::after {
-     width: 100%;
+    width: 100%;
 }
 
 /* end of side navigation */
 
 #form-container {
-     text-align: center;
-     margin: 0 auto;
-     width: 40vw;
+    text-align: center;
+    margin: 0 auto;
+    width: 40vw;
 }
 
 #container-title {
-     font-family: "Amatic SC", sans-serif;
-     font-size: 3em;
-     margin-bottom: 2vh;
+    font-family: "Amatic SC", sans-serif;
+    font-size: 3em;
+    margin-bottom: 2vh;
 }
 
 #container-description {
-     font-family: "Roboto", sans-serif;
-     font-weight: 300;
-     font-size: 1.2em;
-     margin-bottom: 4vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 1.2em;
+    margin-bottom: 4vh;
 }
 
 
 /*forms content*/
 #form-title {
-     font-family: 'Amatic SC', cursive;
-     font-size: 2.5em;
-     margin: 15px 30px;
-     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-     color: #353535;
+    font-family: 'Amatic SC', cursive;
+    font-size: 2.5em;
+    margin: 15px 30px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: #353535;
 }
 
 #forms-title {
-     color: white;
+    color: white;
 }
 
 .form-inputs {
-     font-family: 'Amatic SC', cursive;
-     display: flex;
-     font-size: 1.5em;
-     margin: 20px auto;
-     position: relative;
-     width: 80%;
-     height: 50px;
-     padding-left: 10px;
-     background: #F4F4F4;
-     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-     font-weight: bold;
-     border: none
+    font-family: 'Amatic SC', cursive;
+    display: flex;
+    font-size: 1.5em;
+    margin: 20px auto;
+    position: relative;
+    width: 80%;
+    height: 50px;
+    padding-left: 10px;
+    background: #F4F4F4;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    font-weight: bold;
+    border: none
 }
 
 #addimages {
-     cursor: pointer;
+    cursor: pointer;
 }
 
 input::placeholder {
-     color: rgba(53, 53, 53, 0.3);
+    color: rgba(53, 53, 53, 0.3);
 
 }
 
 #form-btn {
-     font-family: 'Amatic SC', sans-serif;
-     font-size: 2em;
-     margin: 30px auto 80px;
-     width: 10vw;
-     height: 5vhpx;
-     background-color: #228E8E;
-     color: #F4F4F4;
-     border-radius: 10px;
-     padding: 5px;
-     cursor: pointer;
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 2em;
+    margin: 30px auto 80px;
+    width: 10vw;
+    height: 5vhpx;
+    background-color: #228E8E;
+    color: #F4F4F4;
+    border-radius: 10px;
+    padding: 5px;
+    cursor: pointer;
 }
