@@ -44,7 +44,7 @@
     .right-part {
         height: 30vh;
         width: 30vw;
-        margin: 30px;
+        margin: 0 30px 30px 30px;
     }
 
     .right-part h1 {
