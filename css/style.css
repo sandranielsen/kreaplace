@@ -40,7 +40,6 @@ header {
     font-size: 2em;
     color: #353535;
     position: relative;
-    ;
 }
 
 nav {
@@ -86,10 +85,6 @@ footer p {
     flex-direction: row;
     width: auto;
     text-decoration: none;
-
-
-
-
 }
 
 .some-element a {
@@ -104,8 +99,6 @@ footer p {
     margin-right: 0.5vw;
     margin-top: 1.4vh;
 }
-
-
 
 .some-text {
     text-decoration: none;
